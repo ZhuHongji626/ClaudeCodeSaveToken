@@ -1,5 +1,5 @@
 # ClaudeCodeSaveToken
-This is a set of strategies for saving tokens.
+This is a set of strategies for saving tokens.[这是一套节省token的策略]灵感来源于https://www.anthropic.com/engineering/multi-agent-research-system
 
 # Claude Code 模型/角色体系说明
 
