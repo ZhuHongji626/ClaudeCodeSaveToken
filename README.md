@@ -90,16 +90,15 @@ effort: medium
 
 调用方式（在对话里）：直接说"用 implementer 写这个功能"之类的，或者 Claude 自己判断任务类型后主动调用。
 
-## 4. 给同事的部署步骤
+## 4. 部署步骤
 
 **必须：**
 1. 把整个 `~/.claude/agents/` 目录拷贝到同事的 `~/.claude/agents/` 下。
-2. 让同事执行一次 `/model opusplan`（或手动在他的 `settings.json` 里加 `"model": "opusplan"`）。
+2. 执行一次 `/model opusplan`（或手动在他的 `settings.json` 里加 `"model": "opusplan"`）。
 
 **可选：**
 3. 如果要效果级别一致，加一行 `"effortLevel": "xhigh"`。
-4. 如果同事也想要同款状态栏（statusLine），需要额外拷贝 `~/.claude/statusline/statusline.ps1`，并把 `settings.json` 里 `statusLine.command` 中的路径从 `C:/Users/ZhuHongji/...` 改成他自己的用户路径。
-5. `~/.claude/CLAUDE.md`（个人沟通风格设定，比如默认中文、简洁风格）是个人偏好，跟角色/模型体系无关，按需给，不强制。
+4. `~/.claude/CLAUDE.md`（个人沟通风格设定，比如默认中文、简洁风格）是个人偏好，跟角色/模型体系无关，按需给，不强制。
 
 **最简版（只要角色体系能跑起来）：**
 ```
